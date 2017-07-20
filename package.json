@@ -1,0 +1,85 @@
+{
+	"name": "@asymmetrik/angular-starter",
+	"artifactName": "app",
+	"description": "Angular Starter",
+	"version": "0.0.1",
+	"author": "Asymmetrik, Ltd.",
+	"copyright": "Copyright Asymmetrik, Ltd. 2007-2017 - All Rights Reserved.",
+	"license": "MIT",
+
+	"main": "public/bundles/app.js",
+	"module": "public/main.js",
+	"typings": "public/main.d.ts",
+
+	"scripts": {
+		"webpack": "webpack -p --config ./config/webpack.config.js"
+	},
+
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Asymmetrik/angular-starter.git"
+	},
+
+	"peerDependencies": {
+		"@angular/core": "2",
+		"@angular/common": "2"
+	},
+
+	"devDependencies": {
+		"@angular/common": "2.4",
+		"@angular/compiler": "2.4",
+		"@angular/core": "2.4",
+		"@angular/platform-browser": "2.4",
+		"@angular/platform-browser-dynamic": "2.4",
+
+		"core-js": "2.4",
+		"@types/core-js": "0.9",
+
+		"rxjs": "5.2",
+		"zone.js": "0.7",
+
+		"@types/node": "6.0",
+
+		"merge2": "1.0",
+		"rollup": "0.41",
+
+		"typescript": "2.2",
+		"tslint": "4.5",
+		"tslint-stylish": "2.1",
+
+		"webpack": "2.2",
+		"webpack-dev-server": "2.4",
+		"angular2-template-loader": "0.6",
+		"css-loader": "0.26",
+		"file-loader": "0.10",
+		"html-loader": "0.4",
+		"handlebars": "4.0",
+		"handlebars-loader": "1.4",
+		"resolve-url-loader": "2.0",
+		"sass-loader": "6.0",
+		"style-loader": "0.13",
+		"ts-loader": "2.0",
+		"url-loader": "0.5",
+		"html-webpack-plugin": "2.28",
+
+		"del": "2.2",
+		"gulp": "3.9",
+		"gulp-clean-css": "3.0",
+		"gulp-concat": "2.6",
+		"gulp-filter": "5.0",
+		"gulp-hash": "4.0",
+		"gulp-insert": "0.5",
+		"gulp-load-plugins": "1.5",
+		"gulp-rename": "1.2",
+		"gulp-sass": "3.1",
+		"gulp-sass-lint": "1.3",
+		"gulp-sourcemaps": "2.4",
+		"gulp-typescript": "3.1",
+		"gulp-tslint": "7.1",
+		"gulp-uglify": "2.0",
+		"gulp-util": "3.0",
+		"run-sequence": "1.2",
+		"node-sass": "4.5"
+
+	}
+}
