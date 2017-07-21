@@ -12,7 +12,8 @@
 	"typings": "public/main.d.ts",
 
 	"scripts": {
-		"webpack": "webpack -p --config ./config/webpack.config.js"
+		"webpack": "webpack -p --config ./config/webpack.config.js",
+		"development": "export NODE_ENV=development && gulp dev"
 	},
 
 	"repository": {
